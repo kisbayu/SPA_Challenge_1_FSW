@@ -1,0 +1,13 @@
+/* navbar menu*/
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(assets/main-bg.jpg);
+    background-size: cover;
+    height: 800px;
+    margin-top: -65px;
+}
