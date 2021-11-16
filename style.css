@@ -1,3 +1,15 @@
+/* navbar */
+.navbar {
+    background-color: rgba(0,0,0,.5);
+}
+
+/* navbar logo */
+.navbar-brand {
+    font-family: open sans;
+    font-size: 24px;
+    color: white;
+}
+
 /* navbar menu*/
 .nav-link {
     text-transform: uppercase;
