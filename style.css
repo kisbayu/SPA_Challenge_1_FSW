@@ -1,94 +1,51 @@
-/* PAGE PERTAMA */
-/* navbar */
-.navbar {
-    background-color: rgba(0,0,0,.5);
-}
-
-/* navbar logo */
-.navbar .navbar-brand {
-    font-family: open sans;
-    font-weight: bold;
-    font-size: 24px;
-    color: white;
-}
-
-/* navbar menu*/
-.navbar .navbar-nav .nav-link {
-    font-family: open sans;
-    font-weight: bold;
+/* PAGE 1 */
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
-    margin-right: 15px;
-    color: white;
-    font-size: 12px;
 }
 
-/* jumbotron */
-.jumbotron {
-    background-image: url(assets/main-bg.jpg);
-    background-size: cover;
-    height: 800px;
-    margin-top: -65px;
-    text-align: center;
-}
-
-/* main title */
-.jumbotron .display-4{
+/* navbar brand */
+.navbar .navbar-brand{
     color: white;
     font-weight: bold;
-    font-family: open sans;
-    margin-top: 155px;
 }
 
-/* short description */
-.jumbotron .lead{
+/* navbar menu */
+.navbar .navbar-nav .nav-link{
     color: white;
-    font-family: open sans;
-    margin-top: 10px;
+    font-size: small;
+    margin-right: 20px;
 }
 
-/* tombol play now */
-.jumbotron .btn{
-    margin-top: 25px;
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
-    background-color: #FFB548;
-    color: #000;
-    font-size: 10px;
+/* page_1 background */
+.page_1{
+    background-image: url(assets/bgImage1.svg);
+    margin-top: -75px;
+    height: 850px;
+}
+
+.grad{
+    background-image: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
+    margin-top: -53em;
+    height: 850px;
+}
+
+.page_title{
+    margin-top: -38em;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.page_title .btn{
+    border-radius: 4px;
+    border-color: #F3AF34;
+    background-color: #F3AF34;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.8em;
     font-weight: bold;
+    padding: 10px 50px;
 }
-
-/* PAGE KEDUA */
-.page_2{
-    background-image: url(assets/the-games-bg.jpg);
-    position: absolute;
-    margin-top: -35px;
-    height: 800px;
-}
-
-/* carousel slide */
-.slide{
-    margin-left: 200px;
-    margin-top: 180px;
-}
-
-/* carousel image*/
-.carousel-item{
-    height: 380px;
-    width: 588px;
-    margin-left: 240px;
-    margin-top: 100px;
-}
-
-/* corusel button */
-.carousel-control-prev{
-    margin-left: 160px;
-}
-
-.carousel-indicators{
-    margin-left: 320px;
-    margin-bottom: 90px;
-}
-
+/* END OF PAGE 1 */
